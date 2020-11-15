@@ -1,0 +1,84 @@
+input[type="text"]  /*attribute selector*/
+{
+    background: blueviolet;
+    border: 0;
+}
+
+* /*universal selector*/
+{
+  margin: 0;
+  padding: 0;
+} 
+
+/* Navbar */
+
+.navbar
+{
+    background: #333;
+}
+.navbar >h2{
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+    width: 20% vh;
+    /* background: red; */
+    float: left;
+}
+.navbar >ul{
+    list-style: none;
+    width: 80%;
+    /* background: green; */
+    float: left;
+}
+.navbar >ul li
+{
+    display: inline-block;
+    position: relative;
+}
+.navbar >ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: yellowgreen;
+}
+.clear
+{
+    clear: both;
+}
+.navbar ul li ul{
+    position: absolute;
+    display: none;
+    
+}
+.navbar >ul li a:hover +ul
+{
+    display: block;
+}
+
+form input ,select{
+    display: block;
+    width: 100%;
+}
+form input:focus{
+    background:red;
+
+}
+.list 
+{
+    padding: 50px;
+    list-style: none;
+    
+}
+
+.list li::before{
+    content:"";
+    display: inline-block;
+    background-color: blue;
+    width: 5px;
+    height: 5px;
+     vertical-align: middle; 
+     margin-right: 5px;
+}
+
+/* css units px , em ,rem , vh , vw*/

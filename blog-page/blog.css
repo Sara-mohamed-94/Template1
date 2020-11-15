@@ -1,0 +1,277 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+/* head section */
+
+.head
+{
+     position: fixed;
+     width: 100%;
+     background-color: white;
+     
+}
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.head .logo
+{
+    
+    width: 40%;
+    float: left;
+    margin-top:15px;
+}
+.head .logo img{
+    width: 20%;
+    margin: 5px;
+    
+}
+.head .nav
+{
+    list-style: none;
+    width: 60%;
+    float: left;
+    margin-top: 20px;
+    text-align: right;
+
+   
+
+}
+.head .nav li
+{
+    display: inline-block;
+  
+}
+.head .nav li a{
+    text-decoration: none;
+    margin: 12px;
+    text-transform: capitalize;
+    display: block;
+    color: black;
+
+
+ 
+}
+.clear
+{
+    clear: both;
+}
+/* blog section */
+.py-d
+{
+    padding: 110px 0;
+}
+.blog
+{
+    background-color: #e8e8e8;
+}
+.blog-content
+{
+   margin: auto 0;
+}
+
+.blog-content .blog-title
+{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 30px;
+    float: left;
+    width: 60%;
+    margin: 15px ;
+}
+.blog-content  .blog-list
+{
+    list-style: none;
+    float: left;
+    width: 30%;
+    text-align: right;
+    margin: 25px ;
+    
+}
+.blog-content  .blog-list li{
+    float: left;
+    display: inline-block;
+    margin:  0 5px;
+
+}
+.blog-content  .blog-list li a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #6195ff;
+    display: block;
+    
+}
+
+/* photo section */
+.photo
+{
+
+}
+.photo-content
+{
+  width: 100%;
+}
+.photo-content-img
+{
+    width: 70%;
+    float: left;
+    
+}
+.photo-content-img img{
+    width: 100%;
+}
+.photo-content-category
+{
+    width: 20%;
+    float: left;
+    margin-left: 20px;
+    text-align: right;
+    
+}
+.photo-content-category .photo-search
+{
+    height: 35px;
+    width:230px ;
+    border: none;
+      background-color: #f9f9f9;  
+    padding: 0 10px;
+      color: #c9c9c9;  
+     background-image: url("../lens.png");
+     /* background-size: contain; */
+     background-repeat: no-repeat;
+     background-position: right  ;
+    background-origin: content-box;
+    background-size: 15px 15px;   
+}
+
+.photo-content-category .category {
+     text-align: left; 
+    margin: 40px 0;
+}
+.photo-content-category .category-title
+{
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+   
+}
+
+/* another way by using after*/
+
+.photo-content-category .category-title::after
+{
+    content: "";
+    width:20% ;
+    border: 2px solid #6195ff;
+    display: block ;
+    margin: 17px 7px;
+}
+
+/* .photo-content-category .category-line
+{
+    width: 20%;
+    border: 2px solid #6195ff;
+    display: inline-block;
+  
+    
+   
+} */
+
+.photo-content-category .category .category-line{
+    color: #e8e8e8; 
+    opacity: .4;
+    margin: 10px 0 10px 0;
+}
+.photo-content-category .category .category-info
+{
+    text-transform: capitalize;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.photo-content-category .category .category-num
+{
+    color: #6195ff;
+    display: inline-block;
+    float: right;
+
+}
+
+
+.photo-content-popular
+{
+    
+    /* float: left;
+    margin-left: 20px; */
+    
+
+    width: 20%;
+    float: left;
+    margin-left: 20px;
+    text-align: left;
+    
+
+    
+}
+.popular-title
+{
+    font-weight: bold;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.photo-content-popular .popular-title::after
+{
+    content: "";
+    width:25% ;
+    border: 2px solid #6195ff;
+    display: block ;
+    margin: 17px 7px;
+}
+.popular-info{
+    margin-top: 10px;
+}
+
+.popular-info-item{
+    overflow: hidden;
+    margin-bottom: 40px;
+ 
+}
+.popular-info-item .popular-img{
+   width: 45%;
+   
+}
+.popular-info-item .popular-img img{
+    width: 100%;
+    float: left;
+    
+}
+
+.popular-info-item .popular-desc
+{
+    display: inline;
+    text-transform: capitalize;
+    /* font-size: 17px; */
+    white-space: nowrap;
+    font-weight: lighter;
+    
+}
+.popular-info-item .popular-date{
+    color: #6195ff;
+    word-spacing: 5px;
+    display: block;
+    white-space: nowrap;
+}
+.popular-info-item .popular-detail
+{
+    position: absolute;
+    width: 70px;
+    margin-left: 105px;
+}
+

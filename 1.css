@@ -1,0 +1,10 @@
+ table
+{
+    border:1px solid red ;
+    padding: 5px;
+    /* border-collapse: collapse; */
+    caption-side: top;
+    text-align: center;
+    border-spacing: 20px;
+
+}
