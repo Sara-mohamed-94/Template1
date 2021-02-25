@@ -1043,4 +1043,8 @@ button
      --maincolor:#6195ff ;
  }
 
- 
+ @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%;
+    }
+}
